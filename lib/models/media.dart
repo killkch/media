@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
 
-class MEdia {
+class Media {
   final AssetEntity assetEntity;
   final Widget widget;
-  MEdia({
+  Media({
     required this.assetEntity,
     required this.widget,
   });

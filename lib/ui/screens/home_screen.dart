@@ -12,6 +12,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<Media> selectedMedias = [];
+
   Future<void> _handleButton() async {
     List<Media>? result =
         await Get.to(() => const PickerScreen(), arguments: selectedMedias);
